@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@500;600;700&display=swap');
+
+
+body{
+    font-family: 'Kodchasan', sans-serif;
+}
+
+.container{
+    width: 1450px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between; 
+    padding: 31px 0;
+}
+
+
+.nav__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav__menu li{
+    list-style: none;
+}
+
+.nav-menu__link{
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.nav-menu__link:hover{
+    transition: 1s;
+    font-weight: 700;
+}
+
+.hero{
+    max-width: 1500px;
+    height: 865px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+    border-radius: 30px;
+}
+
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-text img{
+    width: 274px;
+    height: 150px;
+    border-bottom: 2px solid black;
+}
+
+
+.hero__title{
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 130px;
+}
+
+
+.bee{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+
+
+
+.hero__img img{
+    padding-top: 80px;
+    width: 600px;
+    height: 600px;
+}
+
+.buttons{
+    margin-top: 96px;
+}
+
+.btn{
+    width: 180px;
+    height: 65px;
+   
+    margin-right: 30px;
+    background: none;
+    font-size: 18px;
+    font-weight: 700;
+    border: 2px solid black;
+    transition: 1s;
+}
+
+.btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.partners{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+}
+
+.partners__title{
+    font-family: Kodchasan;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 72px;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+
+.partners__images{
+    max-width: 1146px;
+    min-height: 37px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.honey-info{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    max-width: 1406px;
+    min-height: 784px;
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+
+.honey-info__text{
+    max-width: 548px;
+    min-height: 374px;
+}
+
+.honey-info__text h3{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+.honey-info__text p{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.yellow-btn{
+    width: 184px;
+    height: 59px;
+    padding: 15px 40px 15px 40px;
+    gap: 10px;
+    background: rgba(229, 131, 17, 1);
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 1s;
+}
+
+.yellow-btn:hover{
+    background-color: #fff;
+    color: #FF9D2D;
+    border: 1px solid #FF9D2D;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    max-width: 1146px;
+    min-height: 427px;
+    margin: 0 auto;
+    margin-bottom: 130px; 
+}
+
+.product-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1150px;
+    margin-bottom: 50px;
+}
+
+.product-title h3{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.product-title a{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #FF9D2D;
+}
+
+.product__cards{
+    display: flex;
+    gap: 30px;
+    width: 1146px;
+    height: 427px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    width: 558px;
+    height: 305px;
+    opacity: 0.07px;
+    background-color: #FDF6EE;
+}
+.card-text h4{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 39px;
+}
+
+.card-text p{
+    width: 302px;
+    height: 78px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+    margin: 20px 0;
+}
+
+.card-text button{
+    width: 140px;
+    height: 49px;
+    padding: 10px 30px 10px 30px;
+    border: 1.5px solid rgba(229, 130, 17, 1);
+    gap: 10px;
+    color: rgba(229, 130, 17, 1);
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #fff;
+    transition: 1s;
+}
+
+.card-text button:hover{
+    background-color: #FF9D2D;
+    color: #fff;
+}
+
+footer{
+    width: 100%;
+    height: 137px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+}
+
+.footer-info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    width: 1144px;
+    height: 47px;
+}
+
+.footer-info p{
+    width: 269px;
+    height: 47px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.socail {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 196px;
+    min-height: 20px;
+}
